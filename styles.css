@@ -1578,3 +1578,79 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: #b8941f;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section Artikel */
+.artikel {
+    background-color: #f4f6f9;
+    padding: 50px 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.7;
+}
+
+/* Judul utama */
+.container > h1:first-child {
+    text-align: center;
+    color: #161616;
+    margin-bottom: 20px;
+}
+
+/* Sub judul besar */
+.container h1 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-top: 25px;
+}
+
+/* Sub judul kecil */
+.container h2 {
+    font-size: 18px;
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Paragraf */
+.container p {
+    margin-top: 10px;
+    text-align: justify;
+    color: #444;
+}
+
+/* Spasi antar bagian */
+.container br {
+    display: none; /* hilangkan <br> biar rapi */
+}
+
+/* Highlight teks strong */
+.container strong {
+    color: #000;
+}
+
+/* Responsive (HP) */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+
+    .container h2 {
+        font-size: 16px;
+    }
+}
